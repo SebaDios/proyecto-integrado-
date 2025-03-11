@@ -1,0 +1,87 @@
+body{/* */
+    
+    font-family: Arial, sans-serif;
+    background-color:#fdab25;
+    margin: 0;/*para que adapte a toda la pantalla sin espacios en blanco */
+    padding: 0;/*grosor del formato */
+    display: flex;
+    flex-direction: column;/*Asegura que todos los elementos salgan en columna de arriba hacia abajo*/
+    min-height: 100vh;/* Para que ocupe todo el contenido la altura de la pantalla*/
+    h2 {
+        text-align: center;
+    }
+    div p.especialll
+    {
+        text-align: center;
+    }
+    
+}
+header{/*Estilo del encabezado*/
+background-color: #6c5336;
+color: aliceblue;
+text-align: center;
+padding: 15px; /*grosor*/
+font-size: 24px;
+}
+nav{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.carousel {
+    width: 100%;
+    max-width: 3000px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    width: 300%;
+    animation: slide 16s infinite;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-30%); }
+    66% { transform: translateX(-50%); }
+    100% { transform: translateX(0%);}
+}
+footer{
+    background-color: #6c5336;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.carousel {
+    width: 600px;
+    max-width: 3000px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8); /* Sombra suave */
+  }
+  .carousel-images{
+    display: flex;
+    width: 300%;
+    animation: slide 16s infinite;
+  }
+  .carousel img{
+    width: 100%;
+  }
